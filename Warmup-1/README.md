@@ -14,7 +14,7 @@ sleepIn(true, false) → false
 sleepIn(false, true) → true
 ```
 
-Soltuion:
+Soltuion 01:
 
 ```java
 public boolean sleepIn(boolean weekday, boolean vacation) {
@@ -22,5 +22,13 @@ public boolean sleepIn(boolean weekday, boolean vacation) {
     return true;
     else
     return false;
+}
+```
+
+Solution 02:
+
+```java
+public boolean sleepIn(boolean weekday, boolean vacation) {
+    return (!weekday || vacation);
 }
 ```
