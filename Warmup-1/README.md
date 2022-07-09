@@ -12,6 +12,14 @@ The parameter weekday is true if it is a weekday, and the parameter vacation is 
 sleepIn(false, false) → true
 sleepIn(true, false) → false
 sleepIn(false, true) → true
+
+```
+Codeblock:
+
+```java
+public boolean sleepIn(boolean weekday, boolean vacation) {
+  
+}
 ```
 
 Soltuion 01:
